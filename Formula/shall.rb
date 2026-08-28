@@ -1,28 +1,28 @@
 class Shall < Formula
   desc "Spec as the control plane for your agents"
   homepage "https://github.com/Nove-Lab/Shall"
-  version "0.1.4"
+  version "0.1.5"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/Nove-Lab/Shall/releases/download/v0.1.4/shall-darwin-arm64"
-      sha256 "5c3220012f912d7e0a0702af1967cbbf30bdbf22208fa33566857d9489e4897f"
+      url "https://github.com/Nove-Lab/Shall/releases/download/v0.1.5/shall-darwin-arm64"
+      sha256 "5d3727ab163ed25292be89e4235d812e1ea996cdc18b742b8855fefdcb249dbc"
     end
     on_intel do
-      url "https://github.com/Nove-Lab/Shall/releases/download/v0.1.4/shall-darwin-x64"
-      sha256 "c6c4b22694c144b6f4439ee5611ab8cf5103b4981698104ad6c089f3bb3a4d26"
+      url "https://github.com/Nove-Lab/Shall/releases/download/v0.1.5/shall-darwin-x64"
+      sha256 "fe200d272ff444ee2d56b9d1617761375daf4200f7915fbba357f28c96109ac3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Nove-Lab/Shall/releases/download/v0.1.4/shall-linux-arm64"
-      sha256 "29f29e2ae1aada3fd0c451d1a78ec0d3bcb4f6b1eab5a6fdf13e137ded8120ab"
+      url "https://github.com/Nove-Lab/Shall/releases/download/v0.1.5/shall-linux-arm64"
+      sha256 "1cf096898d2a22e235273ae0ce0392cebde4555b07a8fb4789024f3a60947d81"
     end
     on_intel do
-      url "https://github.com/Nove-Lab/Shall/releases/download/v0.1.4/shall-linux-x64"
-      sha256 "3727017e1656fa3756b5e496f75238058c015a0f8d75e6ca11f2c1349bfb06ee"
+      url "https://github.com/Nove-Lab/Shall/releases/download/v0.1.5/shall-linux-x64"
+      sha256 "98ea661142a0c93142a84a3bc235a9badc5ab0476c2cd835f1d1ed881ed8766a"
     end
   end
 
